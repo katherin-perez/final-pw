@@ -1,0 +1,52 @@
+*{
+  font-family: 'Open Sans';
+  font-weight: 800;
+}
+
+* button{
+  background-color: #29323d;
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header img{
+  margin-top: 10px;
+  height: 60px;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+}
+
+.content img{
+  height: 100%;
+  width: 100%;
+}
+
+.footer{
+  background-color: #edf0f4;
+  padding: 30px 0;
+}
+
+.footer h2, p{
+  margin: 30px;
+}
+
+.footer input{
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #e6e8ea;
+}
+
+.footer button{
+  margin-left: 8px;
+}
